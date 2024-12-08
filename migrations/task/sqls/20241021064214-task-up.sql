@@ -104,23 +104,23 @@ values
 
 insert into "COACH_LINK_SKILL" (coach_id, skill_id) values
 ((select id from "COACH" where user_id = (select id from "USER" where email = 'lee2000@hexschooltest.io')),
-(select id from "SKILL" where name = '重訓'))
+(select id from "SKILL" where name = '重訓'));
 
 insert into "COACH_LINK_SKILL" (coach_id, skill_id) values
 ((select id from "COACH" where user_id = (select id from "USER" where email = 'muscle@hexschooltest.io')),
-(select id from "SKILL" where name = '重訓'))
+(select id from "SKILL" where name = '重訓'));
 
 insert into "COACH_LINK_SKILL" (coach_id, skill_id) values
 ((select id from "COACH" where user_id = (select id from "USER" where email = 'starplatinum@hexschooltest.io')),
-(select id from "SKILL" where name = '重訓'))
+(select id from "SKILL" where name = '重訓'));
 
 insert into "COACH_LINK_SKILL" (coach_id, skill_id) values
 ((select id from "COACH" where user_id = (select id from "USER" where email = 'muscle@hexschooltest.io')),
-(select id from "SKILL" where name = '瑜伽'))
+(select id from "SKILL" where name = '瑜伽'));
 
 insert into "COACH_LINK_SKILL" (coach_id, skill_id) values
 ((select id from "COACH" where user_id = (select id from "USER" where email = 'starplatinum@hexschooltest.io')),
-(select id from "SKILL" where name = '有氧運動'))
+(select id from "SKILL" where name = '有氧運動'));
 
 insert into "COACH_LINK_SKILL" (coach_id, skill_id) values
 ((select id from "COACH" where user_id = (select id from "USER" where email = 'starplatinum@hexschooltest.io')),
